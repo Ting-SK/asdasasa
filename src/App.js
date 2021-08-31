@@ -1,12 +1,15 @@
 import React from "react";
-import { Content } from "./component/ui/Content";
 import { AppWrapper, GlobalStyle } from "./globalStyles";
+import { ContentLayout, Filters, CatView } from "./components";
 
 export const App = () => {
   return (
     <AppWrapper>
       <GlobalStyle />
-      <Content />
+      <ContentLayout>
+        <Filters />
+        <CatView />
+      </ContentLayout>
     </AppWrapper>
   );
 };

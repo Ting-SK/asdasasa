@@ -1,1 +1,0 @@
-export { CatPic } from "./CatPic";

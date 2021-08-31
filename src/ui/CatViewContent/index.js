@@ -1,0 +1,1 @@
+export { CatViewContent } from "./CatViewContent";

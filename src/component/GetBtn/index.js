@@ -1,1 +1,0 @@
-export { GetBtn } from "./GetBtn";

@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const CheckEnabledWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  
+  & label {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+  }
 `;
